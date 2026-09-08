@@ -1,0 +1,2 @@
+- ABC 474 — [G. LRUD Moving 2](https://atcoder.jp/contests/abc474/tasks/abc474_g)
+- Self Made — [Rippling Server Upgrade Planning — General Case (N > 2)](https://www.fastprep.io/problems/rippling-server-upgrade-planning)
