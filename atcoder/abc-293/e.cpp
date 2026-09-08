@@ -1,23 +1,3 @@
-// your code goes here
-//(1 + A + A^2 + ... A^1e12) % mod
-
-//((A^(1e12 + 1) - 1)/(A - 1)) % mod
-//(A^c - 1) % mod * ((A - 1)^-1) mod
-
-//(A - 1)^-1 inverse wrt mod is (A - 1, mod - 2) % mod
-//a^(2 + 4 + 8) = a^2*a^4*a^8 
-
-//handle the case of when (a - 1) % m == 0  
-//=> a % m = 1 
-//In this case mod of (a - 1)^-1 wrt m will not exist
-//but a^n mod m will be 1 for every n 
-//Therefore a^0 + a^1 + ..a^(x - 1) = x 
-//This apporach works only works if M is prime and M aint prime this time 
-
-
-//Method 2 : Square root decomposition 
-
-//1 + A + A^2 + .A^sqrt(x) - 1 + A^sqrt(x)(1 + A^2 + A^3 + ...A^sqrt(x) - 1) + ....
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -58,3 +38,24 @@ int main() {
 
     cout << sum << '\n';
 }
+
+// your code goes here
+//(1 + A + A^2 + ... A^1e12) % mod
+
+//((A^(1e12 + 1) - 1)/(A - 1)) % mod
+//(A^c - 1) % mod * ((A - 1)^-1) mod
+
+//(A - 1)^-1 inverse wrt mod is (A - 1, mod - 2) % mod
+//a^(2 + 4 + 8) = a^2*a^4*a^8 
+
+//handle the case of when (a - 1) % m == 0  
+//=> a % m = 1 
+//In this case mod of (a - 1)^-1 wrt m will not exist
+//but a^n mod m will be 1 for every n 
+//Therefore a^0 + a^1 + ..a^(x - 1) = x 
+//This apporach works only works if M is prime and M aint prime this time 
+
+
+//Method 2 : Square root decomposition 
+
+//1 + A + A^2 + .A^sqrt(x) - 1 + A^sqrt(x)(1 + A^2 + A^3 + ...A^sqrt(x) - 1) + ....

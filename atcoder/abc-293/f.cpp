@@ -127,4 +127,28 @@ int main() {
         
         cout << count << "\n";  
     }
-}
+} 
+/*
+    A more simpler solution is as follows : 
+    Each base representation with number of bits d(d <= 60) will have only one solution 
+    Proof : For d, minimum value = 100000...(d - 1 times 0) = b^d-1, max value = b^d-1 + b^d-2 + ...1 
+
+    Now, lets consider b + 1
+    min value in d for this base will be : (b + 1)^d-1 
+
+    (1 + b)^d-1 = 1 + nC(n-1)*b + nc(n - 2)*b^2 + .... + 1*b^d-1 
+
+    Except for d = 2 for which this will be 1 + b < 1 + b + b^2 
+        For this case, b = N(10) and b = N - 1(11) are the 2 solutions.
+    For d = 1, 1 = 1
+    For d >= 3 : 
+        1 + 2*b^2 + b > 1 + b + b^2 
+    So, they are non overlappping intervals
+
+    So, for a particular d >= 3, only one value of b will be there
+
+    b^d-1 <= N
+        Find max b which satisfies it using binary seach for each d
+    Then it becomes 0/1 problem for each d
+
+*/
