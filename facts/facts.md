@@ -1,6 +1,4 @@
-# Binary String Insertion
-
-## 1. Result of inserting `0/1`
+## 1. Result of inserting `0/1` in a binary string
 
 ```text
 01 + 0 -> 00 (+1)
@@ -14,4 +12,5 @@
 
 11 + 0 -> 10 (+1), 01 (+1), 11 (-1)
 11 + 1 -> 11 (+1) 
-count(01) = count(10)
+
+count(01) = count(10) in a cylic binary string
