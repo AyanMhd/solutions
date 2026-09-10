@@ -1,0 +1,20 @@
+We have two water jugs, one measures 4 Gallons (4G) while the other measures 9 Gallons (9G). 
+But there is no measuring label mentioned on either of these two jugs, i.e.,  
+we cannot know the exact amount filled in the jug. 
+
+Sol :  
+For 4G and 9G, fill both completely 
+
+For 5G : Empty 4G and fill 4G from 9G 
+
+For 1G : Again empty 4G and fill 4G from 9G 
+
+For 6G : Measured 1G, Full 9G and fill 4G  
+
+For 2G : Empty 4G and fill through 6G filled 9G
+
+For 7G : 2G 4G fill and full fill 9G, Now full fill 4G through 9G 
+
+For 3G : Fill 4G when 9 is with 7 
+
+For 6G : Fill 4g with 3g and 9 with 7 and done.

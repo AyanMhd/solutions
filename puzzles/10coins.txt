@@ -1,0 +1,11 @@
+You are blindfolded, and 10 coins are placed on a table in front of you. You can touch and move the coins,  
+but you cannot determine whether a coin is heads or tails by feeling it. You are told that exactly 5 coins  
+are heads up and 5 coins are tails up, but you do not know which ones.
+
+Your task is to divide the coins into two groups such that both groups have the same number of heads. 
+You can flip the coins any number of times.
+
+
+Sol : Make 2 sets (5 and 5 - x)
+
+Flip all in either set and youre done

@@ -1,0 +1,12 @@
+In a country, every family continues to have children until they have a boy, after which they  
+stop having more children. Assuming the probability of having a boy or a girl is equal (50%),  
+what is the expected ratio of boys to girls in the overall population?
+
+
+Sol : If one 0
+If 2 : 1/2*1/2 
+If 3 : 1/2*1/2*1/2
+
+
+
+= 1/2/1/2 = 1

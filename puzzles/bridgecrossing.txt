@@ -1,0 +1,20 @@
+There are 4 people (A, B, C, and D) who want to cross a bridge at night.
+
+A, B, C, and D take 1, 2, 5, and 8 minutes, respectively, to cross the bridge.
+There is only one torch with them, and the bridge cannot be crossed without the torch.
+There cannot be more than two people on the bridge at any time, and when two people cross the bridge together, 
+they must move at the slower person's pace. 
+
+Can they all cross the bridge in 15 minutes?
+
+Solution : First cross 1,2 - 2 mins 
+
+Then 1 goes back - 1 min 
+
+Then 5,8 = 8 mins 
+
+Then 2 goes back = 2 mins 
+
+Then (1, 2) = 2 mins
+
+Total time = 15 mins

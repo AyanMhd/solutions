@@ -1,0 +1,31 @@
+You are given a building with 100 floors and two eggs.  
+There exists a certain floor, called the critical floor,  
+such that an egg dropped from this floor or any floor below it does not break,  
+while an egg dropped from any floor above it will break.
+
+Conditions :
+
+You have only two eggs.
+A broken egg cannot be used again.
+An unbroken egg can be reused.
+All eggs behave identically.
+If an egg breaks on a certain floor, it will also break from all higher floors.
+If an egg survives a drop, it will also survive all lower floors.
+Determine the highest safe floor in a 100-floor building using two eggs,  
+while minimising the maximum number of drops required in the worst case. 
+
+Sol : Consider we drop from xth floor and egg breaks then we need to start from 1st floor since we have only 1 egg 
+
+Minimum attempts = x 
+
+Now, if egg doesnt break 
+Drop it from x + x - 1 (1 step already used ) 
+Again if it breaks, x - 1 attempts , in total = x 
+
+If doesnt break, drop from 3*x - 3 and so on.. 
+
+Now it will be : 
+    
+    x, x - 1, x - 2, ....1...
+    
+    1 + 2 + ..x >= 100 => x = 14 min

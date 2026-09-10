@@ -1,0 +1,15 @@
+Three friends ordered a rectangular cake. One of them was in a hurry, so he cut a rectangular  
+piece from the cake. The piece could be of any arbitrary size(less than the size of the cake) and rotation.
+
+Now the remaining two friends want to divide the remaining cake into two equal portions with a single straight cut.
+
+Note:
+
+The single straight cut could pass through the cut-out portion.
+They both need an equal amount of cream and toppings. Therefore,  
+the cut must be made vertically from the top down. You cannot simply slice the cake  
+in half horizontally through its middle (as you would a burger bun).
+
+Sol : Due to symmetry, when a rectangle is cut through the centre, it always gets divided into half
+
+So cut through a straight line from C(cut piece) & C(left_over) 

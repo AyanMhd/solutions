@@ -1,0 +1,12 @@
+You are provided with 8 identical balls and a measuring instrument. 7 of the eight balls are equal in weight,  
+and one of the eight given balls is defective and weighs less. 
+The task is to find the defective ball in exactly two measurements.
+
+Sol : Make groups of (3, 3, 2)
+
+Compare 3 vs 3
+If equal => compare the 2 set 
+
+If not equal => Take 1 1 (leave 1) from 3 set 
+If equal, left out is answer 
+If not, directly clear

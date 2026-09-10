@@ -1,0 +1,23 @@
+One hundred prisoners are standing in a straight line, all facing the same direction.
+
+Each prisoner is wearing a hat that is either red or black.
+Every prisoner can see the hats of all prisoners standing in front of them, but not their own hat or those behind them.
+The prisoners will be questioned one by one, starting from the last person in the line (who can see all others) and moving forward.
+Rules:
+
+Each prisoner must state the colour of their own hat.
+If the guess is correct, the prisoner survives.
+If the guess is incorrect, the prisoner is executed.
+Before the process begins, the prisoners are allowed to discuss and agree on a strategy.
+Once the questioning starts, no communication is allowed, except for stating “red” or “black”.
+What strategy should the prisoners adopt to maximise the number of survivors, and how many prisoners can be guaranteed to survive? 
+
+
+Sol : Last prisoner speaks red if parity of red hat infront of them is even
+else black
+
+Last prisoner may die
+But second last wont die, he will speak the color
+Now, all prisoners can know parity of red remaining and also total red removed
+
+Using these information, if parity of remaining red matches infront of them, they are black or else red

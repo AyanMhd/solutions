@@ -1,0 +1,12 @@
+Three Employees want to know the average of their salaries. They are not allowed to share their individual salaries.
+
+
+Sol  :
+
+  Let the salaries be a, b, c 
+
+  a tells a + x to b, b tells b + y to c, c tells c + z to a 
+  Now again, a tells c + z - x to b, b tells a + x - y to c and c b + y - z
+
+
+  Sum these.

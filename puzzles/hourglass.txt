@@ -1,0 +1,10 @@
+Given two hourglasses of 4 minutes and 7 minutes, the task is to measure 9 minutes. 
+
+
+Sol : Initially let both get empty
+When 4 capacity one gets empty,
+Reverse 4th one, now there are 3 & 4 capacity one (4 mins measured)
+now when 3 capacity ones get empty, 7 mins measured
+Reverse the 7 capacity glass
+Now when 4 capacity one gets empty, 8 mins measured
+Reverse both, 7 gets empty and 9 measured

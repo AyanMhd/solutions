@@ -1,0 +1,8 @@
+A man is assigned a task and doubles the amount of work he does each day.  
+If he completes the entire task in 18 days, how many days does it take him to complete 25% of the task?
+
+
+Sol : Each day completes double of previous total work
+
+So if 17 days = 50%
+16 days = 25 %

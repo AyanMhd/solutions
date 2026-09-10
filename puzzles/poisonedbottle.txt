@@ -1,0 +1,13 @@
+You have 1000 wine bottles. Exactly one bottle is poisoned.
+
+A rat that drinks the poisoned wine will die within 1 hour.
+Assume rats can each sip any number of samples once at the start.
+Determine the minimum number of rats needed to identify which single bottle is poisoned in 1 hour. 
+
+
+Sol : 1000 has 10 bits in Binary representation.
+
+Set ith bet set bottle to ith rat 
+
+Now dead rats sum bits can give poisoned bottle number
+

@@ -1,0 +1,12 @@
+There are 25 horses among which you need to find out the fastest 3 horses. You can conduct a race among  
+at most 5 to find out their relative speed. At no point can you find out the actual speed of the horse  
+in a race. Find out the minimum no. of races which are required to get the top 3 horses. 
+
+Sol : After 5 races, get the top of each row
+Now race among these 5 will give top of these 
+
+Let them be A11 > A21 > A31 > A41 > A51
+
+So Second highest can be either A12 or A21, third can be A13 or A22 or A31  
+
+These are 5, race them.

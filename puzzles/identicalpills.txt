@@ -1,0 +1,8 @@
+Given 10 identical bottles of identical pills (each bottle contains 100 pills).  
+Out of 10 bottles, 9 have 1 gram of pills, but 1 bottle has pills weighing 1.1 grams.  
+Given a measurement scale, how would you find the heavy bottle? You can use the scale only once.
+
+
+Sol : Take one from each and give weights 1, 2, 3....
+
+Now calculate left out weight and x, 2*x,....determines number

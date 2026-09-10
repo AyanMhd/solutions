@@ -1,0 +1,11 @@
+An employee works for an employer for 7 days. The employer has a gold rod of 7 units length.  
+How does the employer pay the employee, so that the employee’s total gold increases vertically 
+by 1 unit each day? The employer can make at most 2 cuts in the rod. 
+
+
+Sol : make parts of 1,2 and 4
+
+1 give
+2 give, 1 take
+1 give 
+...

@@ -1,0 +1,21 @@
+Ankur’s elder brother got married 10 years ago. This summer, Ankur is going to meet his brother  
+after a decade. As a token of love, he plans to buy clothes for his brother’s kids.
+
+From what is remembered, Ankur's brother has two children, and it is known that one of the children  
+is a boy, and that boy was born on a Tuesday.
+
+Assume:
+
+Each child is equally likely to be a boy (B) or a girl (G).
+Each child is equally likely to be born on any of the 7 days of the week, independent of sex.
+What is the probability that both of Ankur’s brother’s children are boys, given that at least  
+one of them is a boy born on a Tuesday?
+
+
+Sol : If both are boys, considering atleast one of them is born on Tuesday
+There are 14 - 1(TT twice) combinations = 13
+
+Favourable are = 13 + When the second child or first child is girl
+In that case, the boy needs to be born on tuesday so the girl can be born on any day = 14 
+
+Prob = 13/27
