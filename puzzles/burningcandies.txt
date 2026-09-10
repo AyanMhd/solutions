@@ -1,0 +1,2 @@
+Given two candles that can be lit from either end. Each candle takes exactly one hour to burn completely when lit from a single end, even though it burns unevenly along its length. You also have a box of matches. Using only these candles and the matches, measure 45 minutes and 15 minutes.
+
