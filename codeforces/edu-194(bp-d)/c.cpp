@@ -54,3 +54,13 @@ int main() {
     }
 } 
 
+// 100 
+//  10  
+// 110
+
+//Simpler solution
+//x^y = x + y - (x & y) 
+//x^y = x + y 
+//each bit only in x or 1 
+//check the bits of x + y 
+//if that bit is set in x, dont remove it else do
