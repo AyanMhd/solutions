@@ -1,0 +1,19 @@
+A person owns a banana plantation and needs to transport 3000 bananas to a market located 1000 km away.  
+The only available means of transportation is a camel.
+
+The camel has the following limitations:
+
+It can carry a maximum of 1000 bananas at a time.
+It consumes 1 banana per kilometre travelled.
+The camel may make multiple trips and can store bananas at intermediate points.
+
+Sol : 
+
+1000  & Left = 2000
+
+1000 + 1 
+
+ 
+x, y 
+
+S

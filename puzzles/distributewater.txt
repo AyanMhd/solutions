@@ -1,0 +1,11 @@
+Suppose there are three containers: container I (3 L), container II (5 L), and container III (8 L).  
+Container III is filled with 8 L of water while the other two are empty.
+
+With the help of these 3 containers, how do you distribute the water in equal volumes, i.e.,  
+4 L in container II and 4 L in container III? Consider that there is no loss of water when  
+transferring it from one container to another.
+
+Sol :
+        3, 2, 3 
+
+        

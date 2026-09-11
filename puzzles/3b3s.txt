@@ -1,0 +1,18 @@
+You are standing outside a closed room containing three light bulbs. 
+Outside the room, there are three switches, each connected to exactly one bulb,  
+but you do not know which switch controls which bulb.
+
+You may turn the switches on or off in any combination before entering the room. 
+However, you can enter the room only once, and once inside, you cannot touch the switches again; you can only observe the bulbs.
+
+How will you determine which switch controls which bulb?
+
+Sol : 
+    For the first switch, we can determine the corresponding switch
+    So now there are 2 switches and 2 bulbs
+    This will require 2 moves in total(including first one already performed)
+
+    Instead, lets switch on 2 switches and then let them be on for certain time
+    Then switch off one switch and enter the room immediately, the switch off 
+    one will be hot and on will be lightened 
+    1 move

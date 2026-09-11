@@ -1,0 +1,17 @@
+There are two candles placed on a table. Both candles have the same initial length, but they are of different thicknesses.
+
+Assuming each candle burns uniformly:
+
+The thicker candle burns completely in 6 hours.
+The thinner candle burns completely in 4 hours.
+Both candles are lit at the same time. After some time, you come back and observe that the thicker candle is exactly twice as long as the thinner candle.
+
+How much time has passed since the candles were lit?
+
+Sol : 
+    In one hour, it burns d/6 and thinner in d/4 
+
+    After time t, length  = L - L*t/6 & L - L*t/4
+
+    L - L*t/6 = 2*L - L*t/2
+    1*L*t/3 = L => t = 3 hours = 180 mins

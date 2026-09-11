@@ -1,3 +1,43 @@
+/* 
+   Can we solve it by applying BS on maxvalue of a?                  
+   a -> [-x, -1] U [1, x] (fixed)
+   How to check if its valid?
+
+  p0 = [0,0] 
+  What is the range of p1? 
+
+  [-x, -1] U [1,x] 
+
+  If p1 > 0 
+  [1, x]
+  if p1 < 0 
+  [-x, -1]
+  Else 0(impossible here though)
+
+  Let us conside p1 > 0 -> [1, x]
+  
+  What about p2?
+  [1, x]  - p1
+  [-x, -1] U [1, x] - a(fixed)
+  [-x + 1, 0] U [2, 2*x] - p2(not yet considered sign)
+  
+  If p2 > 0
+      [2, 2*x] 
+      [-x, -1] U [1, x]
+
+      [2 - x, 2*x - 1] U [3, 3*x]
+
+      .....continuing this
+      If x >= 2 
+      If p3 > 0 
+        [3, 3*x]
+        [-x, -1] U [3, 3*x]
+        [3 - x, 3*x - 1] U [3 + 3*x, 6*x]
+ 
+        [x', y'] U [x'', y'']
+This approach doesnt work - the number of disjoint segments can become huge
+
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,0 +1,6 @@
+One day, John and Jessica were searching Google to find the maximum number of hairs on a human head. 
+They found that the maximum number is 200,000. Then Jessica thought for a while and suddenly made a statement that there are at least two citizens of New York who have exactly the same number of hairs on their heads. Both of them knew that the population of New York is 12.3 million. However, John was still thinking about whether Jessica’s statement was correct or not.
+
+Is Jessica’s statement 100% correct, or do we need more information to determine its truth?
+
+Sol : Pigeonhole

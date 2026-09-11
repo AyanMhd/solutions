@@ -1,0 +1,54 @@
+A girl, Alice, is walking through a mysterious forest and meets two strange creatures: a lion and a unicorn.
+
+Each of them has a fixed pattern of telling the truth or lying:
+
+Lion:
+
+Lies on Monday, Tuesday, Wednesday
+Tells the truth on Thursday, Friday, Saturday, Sunday
+Unicorn:
+
+Lies on Thursday, Friday, Saturday
+Tells the truth on Sunday, Monday, Tuesday, Wednesday
+They make the following statements:
+
+Lion: “Yesterday I was lying.”
+Unicorn: “Yesterday I was lying."
+Determine the day of the week on which Alice met them.
+
+Sol :      M     T     W     T    F     S     S
+     
+    M      L,T   L,    L,    L,  
+
+    T      
+
+    W
+
+    T 
+
+    F 
+
+    S 
+
+    S
+
+
+Consider if the lion was truth and unicorn was truth 
+
+which means previous day must be common lie day => Impossible
+
+Consider L,L 
+
+Both truthful previous day truth = Sunday
+But Monday contradicts
+
+Consider T,L 
+Lion was lying on previous day and unicorn was truthful
+
+=> LT & TL 
+
+Lion - L -> L -> L -> T -> T -> T -> T - Wednesday & Thursday
+Unicorn - TTTLLLT - TL (Wednesday & Thursday)
+
+Thursday
+

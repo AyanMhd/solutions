@@ -1,0 +1,7 @@
+There are 2187 identical-looking balls, but exactly one ball is heavier than the rest. 
+ You have a two-pan balance scale that can show three outcomes: left heavier, right heavier, or balanced.
+
+What is the minimum number of weighings needed to guarantee finding the heavy ball? Explain briefly.
+
+
+Sol : Always divide them into equal sizes of 3

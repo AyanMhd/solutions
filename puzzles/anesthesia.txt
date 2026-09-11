@@ -1,0 +1,22 @@
+There are 240 injections in a laboratory. Only one injection contains an anaesthetic.  
+You have 5 rats to find which injection is the anaesthetic. You must solve this within 48 hours.
+
+Rules:
+If a rat is given an anaesthetic injection, it will become faint(unconscious) within 24 hours.
+Once a rat becomes unconscious, it cannot be used again.
+A rat can be given more than one injection (at different times) until it becomes unconscious.
+How can you use the 5 rats to find the exact anaesthetic injection within 48 hours?
+
+
+Sol : 
+If we represent the injection using only 0, 1 & 2 
+
+0 - dont give this injection to the rat 
+1 - give the injection to the rat on first day
+2 - give during the second day 
+
+Now each bit can represent {0, 1, 2}
+Total number of possible markers = 3^5 = 243  
+
+If the bit is 1/2 is at 5th position wrt to units digit, give to rat 5 on first/second day respectively
+Do this action for all injections and corresponding rats

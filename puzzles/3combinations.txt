@@ -1,0 +1,22 @@
+13 purple, 15 yellow, and 17 maroon chameleons are found on an island. When two different-coloured  
+chameleons come together, they both turn into the third colour.
+
+Do all chameleons eventually have the same hue after a certain number of pairwise meetings?
+
+
+Sol:  
+    Consider Y - P = 2(initial)
+
+    Now if Y,P combine : Y - P = 2
+
+    If P, M combine : Y + 2 - P + 1 = 2 + 3 
+
+    If Y, M combine : Y - 1 - P - 2 = 2 + 3
+
+    Y - P mod 3 = 0
+
+    So if at end, only M remain : 
+        Y - P = 0(impossible)
+    For other 2 cases : 
+        +45/-45 which is 0 mod 3 which makes it impossible
+
